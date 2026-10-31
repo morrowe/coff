@@ -28,8 +28,8 @@ function App() {
         <section className="h-[650px] w-full flex flex-col items-center justify-evenly bg-[#FFFEFC]">
           <h1 className="text-[54px] text-[#603809] font-bold">Enjoy a new blend of coffee style</h1>
           <p className='text-[#707070] text-xl'>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
-          <div className='w-[1200px] h-[380px] flex flex-wrap justify-between'>
-            <div className='bg-[#FFF9F1] h-[364px] w-[280px] flex flex-col items-center border border-[#F9C06A6B]'>
+          <div className='w-[61vw] flex flex-wrap justify-between'>
+            <div className='bg-[#FFF9F1] h-[364px] w-[280px] min-w-[160px] flex flex-col items-center border border-[#F9C06A6B]'>
               <img className='w-[100%]' src={cap1} alt="" />
               <div className='h-[86px] mt-3'>
                 <h2 className='text-center text-[#603809] text-[22px] font-bold'>Cappuccino</h2>
@@ -73,23 +73,23 @@ function App() {
         <section className='h-[750px] relative w-full flex flex-col items-center justify-evenly'>
           <h2 className="text-[54px] text-[#603809] font-bold">Why are we different?</h2>
           <p className='text-[#707070] text-xl'>We don’t just make your coffee, we make your day!</p>
-          <div className='w-[1200px] flex flex-row flex-wrap justify-between'>
-            <div className='bg-[#FFF9F1] h-[284px] w-[280px] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
+          <div className='w-[61vw] h-auto flex flex-row flex-wrap justify-between'>
+            <div className='bg-[#FFF9F1] h-[28.4vh] w-[13.5vw] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
               <img className='' src="src/assets/coffeebeans.png" alt="" />
               <h2 className='h-[60px] flex items-center text-[#603809] text-[22px] font-bold'>Supreme Beans</h2>
               <p className='w-[70%] text-center text-[#707070] text-[16px]'>Beans that provides great taste</p>
             </div>
-            <div className='bg-[#FFF9F1] h-[284px] w-[280px] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
+            <div className='bg-[#FFF9F1] h-[28.4vh] w-[13.5vw] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
               <img className='' src="src/assets/badge.png" alt="" />
               <h2 className='h-[60px] flex items-center text-[#603809] text-[22px] font-bold'>High Quality</h2>
               <p className='w-[70%] text-center text-[#707070] text-[16px]'>We provide the highest quality</p>
             </div>
-            <div className='bg-[#FFF9F1] h-[284px] w-[280px] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
+            <div className='bg-[#FFF9F1] h-[28.4vh] w-[13.5vw] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
               <img className='' src="src/assets/coffeecup.png" alt="" />
               <h2 className='h-[60px] flex items-center text-[#603809] text-[22px] font-bold'>Extraordinary </h2>
               <p className='w-[70%] text-center text-[#707070] text-[16px]'>Coffee like you have never tasted</p>
             </div>
-            <div className='bg-[#FFF9F1] h-[284px] w-[280px] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
+            <div className='bg-[#FFF9F1] h-[28.4vh] w-[13.5vw] flex flex-col items-center justify-center border border-[#F9C06A6B] hover:bg-[#F9C06A6B]'>
               <img src="src/assets/bestprice.png" alt="" />
               <h2 className='h-[60px] flex items-center text-[#603809] text-[22px] font-bold'>Affordable Price</h2>
               <p className='w-[70%] text-center text-[#707070] text-[16px]'>Our Coffee prices are easy to afford</p>
@@ -101,28 +101,32 @@ function App() {
             <button className='w-[134px] h-[4.8vh] bg-[#F9C06A] text-[#1E1E1E] text-base rounded-3xl relative top-[20px] font-bold hover:bg-[#DDA046]'>Join Us</button>
           </div>
         </section>
-        <section className='h-[574px] w-full bg-[url(src/assets/bg2.png)] bg-no-repeat bg-size-[100%] bg-center flex justify-center'>
+        <section className='h-[750px] w-full 
+         bg-no-repeat bg-size-[100%] bg-center flex justify-center'>
           <div className='w-[1200px] h-full flex justify-between items-center'>
             <div className='w-[60%] h-[60%]'>
               <h2 className='text-[#fff] text-[54px] font-bold'>Get a chance to have an Amazing morning</h2>
               <p className='text-[#fff] text-[20px] '>We are giving you are one time opportunity to experience a better life with coffee.</p>
               <button className='w-[134px] h-[4.8vh] bg-[#F9C06A] text-[#1E1E1E] text-base rounded-3xl relative top-[20px] font-bold hover:bg-[#DDA046]'>Order Now</button>
             </div>
-            <img className='absolute right-[0px]' src="src/assets/Group 330.png" alt="" />
           </div>
         </section >
         <section className='h-[840px] w-full flex flex-col items-center justify-center relative'>
           <h2 className="text-[54px] text-[#603809] font-bold">Our coffee perfection feedback</h2>
           <p className='h-[60px] text-[#707070] text-xl'>Our customers has amazing things to say about us</p>
-          <img className='w-[30%] absolute right-[0] top-[-40px] z-1' src="src/assets/splas2.png" alt="" />
-          <div className='h-[524px] w-[980px] bg-[#FFF9F1] border border-[#F9C06A6B] flex flex-col items-center justify-evenly'>
+          <div className='w-full flex relative justify-end'>
+            <img className='w-[25%] absolute top-[-210px]' src={splas2} alt="" />
+          </div>
+          <div className='h-[49vh] w-[50vw] bg-[#FFF9F1] border border-[#F9C06A6B] flex flex-col items-center justify-evenly'>
             <img className='relative right-[400px]' src="src/assets/“.png" alt="" />
             <p className='h-[170px] text-center w-[70%] text-[#707070] flex items-end'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.....</p>
             <h3 className='text-[#603809] text-[32px] font-bold'>Jonny Thomas</h3>
             <p>Project Manager</p>
             <img className='relative top-[80px]' src="src/assets/Rec.png" alt="" />
           </div>
-          <img className='w-[30%] absolute left-[0] top-[410px] z-1' src="src/assets/splas.png" alt="" />
+          <div className='w-full flex relative'>
+            <img className='w-[25%] absolute top-[-210px]' src={splas} alt="" />
+          </div>
         </section>
         <section className='h-[374px] w-full bg-[url(src/assets/bg2.png)] bg-no-repeat bg-size-[100%] bg-center flex justify-center'>
           <img src="" alt="" />
@@ -130,8 +134,8 @@ function App() {
             <h2 className='text-[#fff] text-[54px] font-bold'>Subscribe to get the Latest News</h2>
             <p className='text-[#fff] text-[20px] text-center'>Don’t miss out on our latest news, updates, tips and special offers</p>
             <div className='flex justify-center '>
-              <input className='bg-[#FFF9F1] w-[500px] h-[6.6vh] rounded-[0.2rem]' type="text" name="" id="" />
-              <button className='w-[134px] h-[6.6vh] bg-[#F9C06A] text-[#1E1E1E] text-base rounded-[0.2rem] font-bold hover:bg-[#DDA046]'>Suscribe</button>
+              <input className='bg-[#FFF9F1] w-[25vw] h-[6.6vh] rounded-[0.2rem]' type="text" name="" id="" />
+              <button className='w-[7vw] h-[6.6vh] bg-[#F9C06A] text-[#1E1E1E] text-base rounded-[0.2rem] font-bold hover:bg-[#DDA046]'>Suscribe</button>
             </div>
           </div>
           <img src="" alt="" />
@@ -149,8 +153,17 @@ function App() {
               <a href=""><img src="" alt="" /></a>
             </div>
           </div>
+          <div>
+            <div>
+              <a href="">About</a>
+              <a href="">Menu</a>
+              <a href="">Features</a>
+              <a href="">News & Blogs</a>
+              <a href="">Help & Supports</a>
+            </div>
+          </div>
         </div>
-      </footer> */}
+      </footer>  */}
     </>
   )
 }
